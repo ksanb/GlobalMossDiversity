@@ -1,4 +1,6 @@
 #first make equal area grids....##########
+#this code was modified from Master class: Biodiversity_Data_from_Field_to_Yield
+#https://azizka.github.io/Biodiversity_Data_from_Field_to_Yield/04_species_richness_maps_tutorial.html
 mossDF <- read.xlsx("mossDF.xlsx")
 dat <- data.frame(species = mossDF$speciesFinal, longitude = mossDF$lon, latitude = mossDF$lat)
 # Define projections
